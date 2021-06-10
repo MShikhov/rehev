@@ -2655,3 +2655,137 @@ body.tie-no-js [class*=" tie-icon-"]:before {
         width: 100%
     }
 }
+@media (min-width: 1200px) {
+    .thumb-title{
+    margin-left: 15%;
+  }
+}
+  @media (max-width: 1199px) and (min-width: 992px) {
+
+  .dark-skin .video-playlist-wrapper,
+  .dark-skin .tie-slider-nav span {
+      font-size: 60px !important;
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+  }
+
+  .button_slider {
+      font-size: 12px;
+      background: #45940b;
+      width: auto;
+     padding: 10px;
+      position: relative;
+      top: 37px;
+  }
+  .thumb-title{
+    margin-left: 20%;
+  }
+ 
+  }
+
+ 
+  @media (min-width: 768px) and (max-width: 991px) {
+  .thumb-title{
+    margin-left: 30%;
+  }
+  .search-box{
+    margin-top: -30px;
+
+  }
+  dark-skin .video-playlist-wrapper,
+  .dark-skin .tie-slider-nav span {
+      font-size: 60px !important;
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+  }
+
+  .button_slider {
+      font-size: 10px;
+      background: #45940b;
+      width: auto;
+     padding: 10px;
+      position: relative;
+
+  }
+  }
+  @media (max-width: 767px) {
+  .thumb-title{
+    margin-left: 30%;
+
+  }
+  .button_slider{
+    margin-bottom: 35%;
+  }
+  .search-box{
+    margin-top: -30px;
+
+  }
+  dark-skin .video-playlist-wrapper,
+  .dark-skin .tie-slider-nav span {
+      font-size: 60px !important;
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+  }
+
+  .button_slider {
+      font-size: 10px;
+      background: #45940b;
+      width: auto;
+     padding: 10px;
+      position: relative;
+
+  }
+  }
+  @media (max-width: 650px) {
+  .thumb-title{
+    margin-left: 40%;
+
+  }
+  
+  .search-box{
+    margin-bottom: 30px;
+  }
+  dark-skin .video-playlist-wrapper,
+  .dark-skin .tie-slider-nav span {
+      font-size: 60px !important;
+      margin-left: 5px !important;
+      margin-right: 50px !important;
+  }
+
+  .button_slider {
+      font-size: 10px;
+      background: #45940b;
+      width: auto;
+     padding: 10px;
+      position: relative;
+margin-top: 30%;
+  }
+  }
+
+  @media (max-width: 480px) {
+  .thumb-title{
+    margin-left: 70%;
+
+  }
+ 
+  .search-box{
+    margin-bottom: 30px;
+margin-left: 50px;
+
+  }
+  dark-skin .video-playlist-wrapper,
+  .dark-skin .tie-slider-nav span {
+      font-size: 60px !important;
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+  }
+
+  .button_slider {
+      font-size: 10px;
+      background: #45940b;
+      width: auto;
+     padding: 10px;
+      position: relative;
+margin-top: -10%;
+  }
+  }

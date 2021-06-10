@@ -1103,7 +1103,7 @@ li.custom-menu-link:hover .comp-sub-menu {
 
 .breaking-news {
     display: none;
-    
+
 }
 
 .ticker-wrapper.has-js {
@@ -5546,7 +5546,8 @@ div.mag-box .mag-box-options .mag-box-filter-links a.active {
 .scroll-2-box .slick-track {
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+
 }
 
 .scroll-2-box .slide {
@@ -7610,7 +7611,7 @@ div.post-element div.entry-content img {
 .media-page-layout .thumb-overlay .thumb-title {
     font-size: 24px;
     line-height: 30px;
-    
+
 }
 
 .full-width .entry-header-outer,
@@ -8014,7 +8015,8 @@ div.post-element div.entry-content img {
 .slick-track:before,
 .slick-track:after {
     content: "";
-    display: table
+    display: table;
+
 }
 
 .slick-track:after {
@@ -8029,16 +8031,19 @@ div.post-element div.entry-content img {
     float: left;
     height: 100%;
     min-height: 1px;
-    display: none
+    display: flex;
+
 }
 
 [dir="rtl"] .slick-slide {
-    float: right
+    float: right;
+
 }
 
 .tie-main-slider .slick-slide img {
     display: none;
-    max-width: none
+    max-width: none;
+
 }
 
 .slick-slide.slick-loading img {
@@ -8160,7 +8165,7 @@ div.post-element div.entry-content img {
     max-width: 100%;
     width: 100%;
     padding: 0;
-    
+
 }
 
 .main-slider .slick-list {
@@ -8620,6 +8625,7 @@ div.post-element div.entry-content img {
 .boxed-slider {
     height: auto
 }
+
 
 .boxed-slider .tie-slick-slider {
     overflow: hidden
@@ -10745,3 +10751,137 @@ a.go-to-top-button.show-top-button {
 .dark-skin .site-footer {
     background-color: #1c1d21
 }
+@media (min-width: 1200px) {
+    .thumb-title{
+    margin-left: 15%;
+  }
+}
+  @media (max-width: 1199px) and (min-width: 992px) {
+
+  .dark-skin .video-playlist-wrapper,
+  .dark-skin .tie-slider-nav span {
+      font-size: 60px !important;
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+  }
+
+  .button_slider {
+      font-size: 12px;
+      background: #45940b;
+      width: auto;
+     padding: 10px;
+      position: relative;
+      top: 37px;
+  }
+  .thumb-title{
+    margin-left: 20%;
+  }
+ 
+  }
+
+ 
+  @media (min-width: 768px) and (max-width: 991px) {
+  .thumb-title{
+    margin-left: 30%;
+  }
+  .search-box{
+    margin-top: -30px;
+
+  }
+  dark-skin .video-playlist-wrapper,
+  .dark-skin .tie-slider-nav span {
+      font-size: 60px !important;
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+  }
+
+  .button_slider {
+      font-size: 10px;
+      background: #45940b;
+      width: auto;
+     padding: 10px;
+      position: relative;
+
+  }
+  }
+  @media (max-width: 767px) {
+  .thumb-title{
+    margin-left: 30%;
+
+  }
+  .button_slider{
+    margin-bottom: 35%;
+  }
+  .search-box{
+    margin-top: -30px;
+
+  }
+  dark-skin .video-playlist-wrapper,
+  .dark-skin .tie-slider-nav span {
+      font-size: 60px !important;
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+  }
+
+  .button_slider {
+      font-size: 10px;
+      background: #45940b;
+      width: auto;
+     padding: 10px;
+      position: relative;
+
+  }
+  }
+  @media (max-width: 650px) {
+  .thumb-title{
+    margin-left: 40%;
+
+  }
+  
+  .search-box{
+    margin-bottom: 30px;
+  }
+  dark-skin .video-playlist-wrapper,
+  .dark-skin .tie-slider-nav span {
+      font-size: 60px !important;
+      margin-left: 5px !important;
+      margin-right: 50px !important;
+  }
+
+  .button_slider {
+      font-size: 10px;
+      background: #45940b;
+      width: auto;
+     padding: 10px;
+      position: relative;
+margin-top: 30%;
+  }
+  }
+
+  @media (max-width: 480px) {
+  .thumb-title{
+    margin-left: 70%;
+
+  }
+ 
+  .search-box{
+    margin-bottom: 30px;
+margin-left: 50px;
+
+  }
+  dark-skin .video-playlist-wrapper,
+  .dark-skin .tie-slider-nav span {
+      font-size: 60px !important;
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+  }
+
+  .button_slider {
+      font-size: 10px;
+      background: #45940b;
+      width: auto;
+     padding: 10px;
+      position: relative;
+margin-top: -10%;
+  }
+  }
